@@ -1,0 +1,13 @@
+[user]
+	name = Artyom Shandrakov
+	email = ashandrakov@qulix.com
+[alias]
+    st = status
+    co = commit 
+    cm = commit -m
+    ch = checkout
+    cf = checkout -f
+    cb = checkout -b
+    br = branch
+    bv = branch -vv
+
