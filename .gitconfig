@@ -10,4 +10,6 @@
     cb = checkout -b
     br = branch
     bv = branch -vv
+    user = config user.name
+    email = config user.email
 
