@@ -12,4 +12,6 @@
     bv = branch -vv
     user = config user.name
     email = config user.email
-
+    lrc = log --branches --not --remotes
+    lc = log --name-status HEAD^..HEAD
+    fp = format-patch 
