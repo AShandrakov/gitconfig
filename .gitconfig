@@ -17,3 +17,7 @@
     lrc = log --branches --not --remotes
     lc = log --name-status HEAD^..HEAD
     fp = format-patch 
+    undo = reset --soft HEAD~
+    review = push origin refs/heads/master:refs/for/master    
+    ignore = update-index --assume-unchanged
+    unignore = update-index --no-assume-unchanged
