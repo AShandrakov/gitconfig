@@ -21,3 +21,4 @@
     review = push origin refs/heads/master:refs/for/master    
     ignore = update-index --assume-unchanged
     unignore = update-index --no-assume-unchanged
+    hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
