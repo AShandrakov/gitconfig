@@ -22,3 +22,4 @@
     ignore = update-index --assume-unchanged
     unignore = update-index --no-assume-unchanged
     hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+    fdiff = diff-tree --no-commit-id --name-only -r
