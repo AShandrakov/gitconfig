@@ -2,7 +2,7 @@
 	editor = emacs
 [user]
 	name = Artyom Shandrakov
-	email = ashandrakov@qulix.com
+	email = ashandrakov@mail.com
 [alias]
     st = status
     co = commit 
