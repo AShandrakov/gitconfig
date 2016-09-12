@@ -23,3 +23,4 @@
     unignore = update-index --no-assume-unchanged
     hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
     fdiff = diff-tree --no-commit-id --name-only -r
+    cln = "!sh -c 'git clone ssh://artem_shandrakov@git.cedoni.com:29418/$1' -"
